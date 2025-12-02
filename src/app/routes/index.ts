@@ -13,7 +13,7 @@ import { ProgressRoutes } from '../modules/Progress/progress.route';
 import { QuizRoutes } from '../modules/Quiz/quiz.route';
 import { QuizSubmissionRoutes } from '../modules/QuizSubmission/quizSubmission.route';
 import { RatingRoutes } from '../modules/Rating/rating.route';
-import { StudentRoutes } from '../modules/Student/student.route'; // import StudentRoutes
+import { StudentRoutes } from '../modules/Student/student.route'; 
 import { UserRoutes } from '../modules/User/user.route';
 
 const router = Router();
