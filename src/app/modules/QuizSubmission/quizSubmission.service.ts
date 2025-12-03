@@ -2,6 +2,7 @@ import QueryBuilder from '../../builder/QueryBuilder';
 import { Quiz } from '../Quiz/quiz.model';
 import { TQuizSubmission } from './quizSubmission.interface';
 import { QuizSubmission } from './quizSubmission.model';
+import { model } from 'mongoose';
 
 const createQuizSubmissionIntoDB = async (payload: TQuizSubmission) => {
     // Calculate score
